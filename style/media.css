@@ -1,0 +1,23 @@
+@media screen and (max-width:1255px) {
+    .card{
+        width: 45%;
+    }
+}
+@media screen and (max-width:768px) {
+    .card{
+        width: 80%;
+    }
+}
+@media screen and (max-width:480px) {
+    .card{
+        width: 100%;
+        min-height: max-content;
+    }
+    .card-description{
+        display: none;
+    }
+    .card-header{
+        margin: 0;
+        text-align: center;
+    }
+}
